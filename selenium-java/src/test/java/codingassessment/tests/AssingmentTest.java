@@ -11,7 +11,7 @@ import codingassessment.pages.AlertPage;
 public class AssingmentTest extends TestBaseClass{
 
 	JavascriptExecutor js;
-	@Test
+	@Test(description="task2 assert the alert present")
 	public void assingment() throws InterruptedException {
 		HelperClass helperObj = new HelperClass(driver);
 		helperObj.launchBrowser("https://demoqa.com/");
